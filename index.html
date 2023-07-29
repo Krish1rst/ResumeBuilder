@@ -1,0 +1,55 @@
+      <!DOCTYPE html>
+    <html>
+
+    <head>
+      <title>Simple Resume Builder</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body><div id="form-container">
+      <h1>Resume Details</h1>
+      
+        <div id="profile-preview">
+          <div id="profile-picture">
+            <img id="profile-image" src="" alt="">
+          </div>
+        </div>
+        <label for="profile-image-upload">Profile picture:</label>
+        <input type="file" id="profile-image-upload" accept="image/*">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your Email">
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" placeholder="Your Phone">
+
+        <label for="education">Education:</label>
+        <textarea id="education" placeholder="Your Education Details"></textarea>
+
+        <label for="experience">Work Experience:</label>
+        <textarea id="experience" placeholder="Your Work Experience Details"></textarea>
+
+        <label for="skills">Skills:</label>
+        <textarea id="skills" placeholder="Your Skills"></textarea>
+
+        <label for="projects">Projects:</label>
+        <textarea id="projects" placeholder="Your Projects"></textarea>
+
+        <label for="certifications">Certifications:</label>
+        <textarea id="certifications" placeholder="Your Certifications"></textarea>
+
+        <label for="languages">Languages:</label>
+        <textarea id="languages" placeholder="Your Languages"></textarea>
+
+        <button onclick="generateResume()">Generate Resume</button>
+        <a id="download-link" download="resume.html" style="display: none;">Download Resume</a>
+      </div>
+      <div id="resume-preview"></div>
+      </div>
+      <script src="script.js"></script>
+    </body>
+
+    </html>
