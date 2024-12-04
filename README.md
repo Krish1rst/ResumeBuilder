@@ -32,7 +32,7 @@ Follow these steps to set up the project locally on your machine.
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/project_html_css_website.git
+git clone https://github.com/Krish1rst/Shushi-Theme-website.git
 cd project_html_css_website
 ```
 
