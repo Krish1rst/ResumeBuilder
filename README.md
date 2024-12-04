@@ -33,7 +33,7 @@ Follow these steps to set up the project locally on your machine.
 
 ```bash
 git clone https://github.com/Krish1rst/Shushi-Theme-website.git
-cd project_html_css_website
+cd Shushi-Theme-website
 ```
 
 **Installation**
